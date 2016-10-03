@@ -10,6 +10,10 @@ namespace Test
     {
         static void Main(string[] args)
         {
+            Blood myBlood = new Blood(AB0System.A);
+            
+            Console.WriteLine("Bloodgroup: " + myBlood.Group);
+            Console.ReadLine();
         }
     }
 }
